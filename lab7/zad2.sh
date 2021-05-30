@@ -24,3 +24,4 @@
 # Każdy znaleziony unikalny odnośnik wypisać w nowej linii.
 #
 
+grep -E -o '([a-z]+)://[^ ]+' dodatkowe/slajdy.tex | cut -d '}' -f 1

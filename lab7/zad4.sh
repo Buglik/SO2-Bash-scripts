@@ -22,3 +22,6 @@
 # Wynik wyświetlić jako ułamek w postaci X/Y.
 #
 
+x=`grep -E '' dodatkowe/slajdy.tex | wc -l`
+y=`grep -E '[^ ]' dodatkowe/slajdy.tex | wc -l`
+echo $y/$x

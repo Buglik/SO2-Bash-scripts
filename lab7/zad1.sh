@@ -21,3 +21,4 @@
 # w nowej linii, bez powtórzeń, bez żadnych znaków innych niż litery.
 #
 
+grep -E -o '[A-Z][a-z]*' dodatkowe/lipsum.txt | sort | uniq
