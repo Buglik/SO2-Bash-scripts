@@ -23,3 +23,5 @@
 # także wyodrębnić.
 #
 
+grep -E -o '(\+)?([0-9]+(( )|[-])?[0-9]+){3}' dodatkowe/kant.txt
+grep -E -o '[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}' dodatkowe/kant.txt

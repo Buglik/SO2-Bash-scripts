@@ -26,3 +26,4 @@
 # Jako wynik zwrócić same unikalne ścieżki, każdą w nowej linii.
 #
 
+grep -E -o '\\fbox{\\includegraphics([\[])*.+' dodatkowe/slajdy.tex | cut -d'{' -f 3 | cut -d'}' -f 1
