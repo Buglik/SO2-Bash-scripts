@@ -11,6 +11,3 @@ Lab5::Przetwarzanie potokowe
 Lab6::Program awk
 
 Lab7::Wyrazenia regularne
-
-
-Nie wszystkie pliki zawieraja pelne rozwiazania!
