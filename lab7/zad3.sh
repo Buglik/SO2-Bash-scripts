@@ -22,3 +22,4 @@
 # pomijajac linie puste i takie, których jedyną zawartość stanowią spacje.
 #
 
+gawk '{gsub(/<[a-zA-Z0-9/="_:\/. ]*>/, "");print}' dodatkowe/cpplint.txt | grep '[^ ]'
